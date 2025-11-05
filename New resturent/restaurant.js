@@ -12,6 +12,7 @@ class Restaurant {
         this.menu.push({ itemName, price });
         console.log(`Menu item added: ${itemName} for $${price}`);
     }
+    
 
     // Method to take an order for a specific table
     takeOrder(tableNumber, items) {
@@ -94,3 +95,4 @@ myRestaurant.calculateBill(1);
 
 // Displaying active orders
 myRestaurant.displayActiveOrders();
+
